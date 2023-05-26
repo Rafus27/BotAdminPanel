@@ -1,0 +1,27 @@
+.tab {
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    z-index: 20;
+    left: -150px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #5d5d5d;
+}
+
+.tab .active {
+    left: 50px;
+}
+
+.header {
+    margin: 0 0 20px;
+}
+
+.tabs {
+    padding: 5px 0;
+}
