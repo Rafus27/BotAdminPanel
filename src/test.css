@@ -1,0 +1,9 @@
+.text {
+    background-color: #cfcfcf;
+    width: 100px;
+    height: 80px;
+    overflow-x: scroll;
+    
+    box-shadow: 4px 4px 8px 0px #223c5033;
+}
+
